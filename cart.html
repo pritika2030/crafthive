@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CraftHive</title>
+   <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="container header-content flex space-between align-center">
+      <a href="index.html" class="logo">CraftHive</a>
+      <nav class="main-nav">
+        <ul class="nav-list flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#new-products">New Arrivals</a></li>
+          <li><a href="#claypots">Clay Pots</a></li>
+          <li><a href="#juttis">Jutti</a></li>
+          <li><a href="#jewellery">Jewellery</a></li>
+          <li><a href="#wooden-products">Wooden Products</a></li>
+          <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section cart-section">
+      <div class="container">
+        <h1 class="section-title">Your Shopping Cart</h1>
+        <div class="line"></div>
+
+        <div class="cart-items-container">
+          <div class="cart-item">
+            <img src="craft images/claypot1.jpg" alt="Handcrafted colorful clay pot">
+            <div class="item-details">
+              <h3>Handcrafted colorful clay pot</h3>
+              <p>Price: Rs100.00</p>
+              <div class="quantity-control">
+                <button class="quantity-minus">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-plus">+</button>
+              </div>
+              <button class="remove-item">Remove</button>
+            </div>
+            <div class="item-total">Rs100.00</div>
+          </div>
+          </div>
+
+        <div class="cart-summary">
+          <div class="summary-line">
+            <span>Subtotal:</span>
+            <span class="subtotal-amount">Rs0.00</span>
+          </div>
+          <div class="summary-line">
+            <span>Shipping:</span>
+            <span class="shipping-amount">Free</span>
+          </div>
+          <div class="summary-line total-line">
+            <span>Total:</span>
+            <span class="total-amount">Rs0.00</span>
+          </div>
+          <button class="btn primary-btn checkout-btn">Proceed to Checkout</button>
+        </div>
+
+        <div class="empty-cart-message" style="display: none;">
+          <p>Your cart is empty. <a href="index.html">Start shopping!</a></p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container flex space-between wrap">
+      <div class="footer-col">
+        <h4>About Us</h4>
+        <p>CraftHive offers unique handmade products, supporting local artisans and preserving traditional craftsmanship.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#new-products">New Arrivals</a></li>
+          <li><a href="#claypots">Collections</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>Email: info@crafthive.com</p>
+        <p>Phone: +1 234 567 8900</p>
+      </div>
+      <div class="footer-col social-links">
+        <h4>Follow Us</h4>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; CraftHive. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
